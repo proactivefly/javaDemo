@@ -1,17 +1,14 @@
 public class demo {
   public static void main(String[] args) {
-    System.out.print("hello world");
+    if('a'=='a'){
+      System.out.print("相等");
+    }else{
+      System.out.print("不相等");
+    }
+    System.out.print("\nhello world");
+    hungry();
   }
-  String breed;
-  int age;
-  String color;
-  void hungry(){
-
-  }
-  void barking(){
-
-  }
-  void sleeping(){
-
+  static void hungry(){
+    System.out.print("\nout");
   }
 }
