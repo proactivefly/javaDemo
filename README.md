@@ -147,3 +147,22 @@
     3、静态方法不能直接访问非静态方法（原因：内存中先有静态，后有非静态）
     
     4、静态方法中不能用this关键字
+
+
+#arrays
+    1、Arrays.toString(arr)  //  转字符串
+    2、Arrays.sort() //排序
+    
+#Math
+    1、Math.abs()
+    2、Math.ceil()
+    3、Math.floor()
+    4、Math.round()
+    
+    
+#集成 （extends）
+    1、定义
+        父类：父类就是普通的父类
+        子类：public class 子类名称 extends 父类名称{
+            super(props)
+        }  
